@@ -1,0 +1,16 @@
+.search{
+    padding: 1rem;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    margin: 15px;
+    font-weight: 300;
+    font-size: 18px;
+}
+.search:focus{
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    outline-style: dashed
+}   
